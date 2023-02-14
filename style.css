@@ -1,0 +1,162 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6eff6 ;
+  }
+main {
+  width: 35%;
+  top: 100px; 
+  margin: auto;
+  position: relative;
+}
+main .box1 {
+  width: 100%;
+  height: 250px;
+  background-color: #ffffff;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+main .box1 h1{
+  color: #6ebdba;
+  font-weight: 700;
+  padding: 50px 15px 25px 50px;
+  margin: 1px;
+}
+main .box1 h2{
+  margin: 0px;
+  color: #bfdf32;
+  padding: 0px 20px 15px 50px;
+}
+main .box1 p{
+  padding: 0px 20px 10px 50px;
+  margin: 0px;
+}
+main .box1 p{
+  color: #c8ccd4;
+  
+}
+main .box2 {
+  width: 50%;
+  height: 300px;
+  float: left;
+  background-color: #2bb3b1;
+  border-bottom-left-radius: 5px;
+  color: #f1ffff;
+  
+}
+main .box2 h2{
+ margin: 1px;
+ padding: 50px 15px 10px 50px;
+ border: 1px;
+}
+main .box2 h1{
+  margin: 1px;
+  border: 1px;
+  padding: 10px 10px 1px 50px;
+}
+main .box2 .price{
+  display: flex;
+}
+main .box2 .price p{
+  color: #c0c4cf;
+}
+main .box2 #p{
+  margin: 1px;
+  border: 1px;
+  padding: 1px 5px 45px 50px;
+  color: #bdfcfc;
+  font-size: 16;
+}
+main .box2 .signup-btn{
+  background-color: #bfdf32;
+  color: #f1ffff;
+  padding: 15px 100px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+main .box2 .text-align{
+  display: flex;
+  justify-content: center;
+  margin: 1px 0px 5px 5px;
+  padding: 1px 40px 1px 1px;
+  
+}
+main .box3 {
+  width: 50%;
+  height: 300px;
+  float: left;
+  background-color: #4abebd;
+  border-bottom-right-radius: 5px;
+  color: #f1ffff;
+  margin: none;
+
+}
+main .box3 h2{
+  margin: 1px;
+  padding: 50px 15px 1px 50px;
+  border: 1px;
+}
+main .box3 #box3div{
+  line-height: 1.5;
+  word-spacing: 1.5;
+  color: #bdfcfc;
+  font-size: 16;
+  margin: 1px;
+  padding: 1px 15px 10px 50px;
+ 
+}
+@media screen and (min-width: 375px) {
+  /* Estilos   para dispositivos pequeños */
+  main {
+    width: 110%;
+    margin: auto;
+  }
+  .box1 {
+    width: 100%;
+    border-radius: 0;
+  }
+  .box2{
+    width: 100%;
+    border-radius: 0;
+  }
+  .box3{
+    width: 100%;
+    border-radius: 0;
+  }
+}
+  /* otros estilos */
+  /* Style for medium screens */
+@media only screen and (min-width: 761px) and (max-width: 1440px) {
+  main {
+    width: 70%;
+  }
+  .box1 {
+    width: 100%;
+  }
+  .box2 {
+    width: 50%;
+  }
+  .box3 {
+    width: 50%;
+  }
+}
+
+  
+  /* Style for large screens */
+  @media only screen and (min-width: 1440px) {
+    main {
+      width: 40%;
+    }
+    .box1 {
+      width: 100%;
+    }
+    .box2 {
+      width: 50%;
+    }
+    .box3 {
+      width: 50%;
+    }
+  }
